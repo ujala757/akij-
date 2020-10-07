@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.message {
+    height: 500px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    box-shadow: 0 0 5rem 1rem rgb(129, 140, 245);
+    border-radius: 0 5rem 0 8rem;
+}
+.text-center {
+    text-align: center!important;
+}
+
+.flex{
+    display: flex;
+}
+.message img{
+    height: 50px;
+
+}
+.message img:hover{
+    transform: rotate(360deg);
+    transition: all 2s linear;
+}
+.ami{
+    padding-right: -4rem;
+    padding-bottom: 2rem;
+
+}
+.ami{height: 200px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+   
+    border-radius: 0 5rem 0 8re
+
+}
+.ami:hover{
+   
+transform: translateY(-20px);
+box-sizing: border-box;
+border: 2px solid blue;
+}
+.fo{
+    height: 500;
+    width: min-content;
+    
+    border-radius: 0 5rem 0 8re
+
+}
+.fonder .fo:hover{
+    transform: translateY(-20px);
+}
+button{
+    font-size: 17px;
+font-weight: bold;
+color: white;
+text-transform: uppercase;
+background: linear-gradient(57deg,#00c6a7, #1e4d92);
+border-radius: 30px;
+padding: 20px 35px;
+
+}
+button:hover{
+    background: linear-gradient(57deg, #1e4d92,#00c6a7);
+}
+
+
+
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item > div {
+      display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+      display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+  
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33.333%);
+  }
+  
+  .carousel-inner .carousel-item-left.active, 
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.333%);
+  }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+transform: translateX(0);
+}
+.op h3{
+    color: #007bff;
+}
+.op .card{
+    width: 180px;
+    height: 280px;
+    position: relative;
+    background-color: #afd1f5;
+    margin-left: auto;
+    margin-right: auto;
+}
+.op h6{
+    position: relative;
+    margin-bottom: auto;
+}
+.op .card img{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.op .card:before{
+    content: "";
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    background: linear-gradient(57deg,#00c6a7, #1e4d92);
+    bottom: 0;
+}
+.op .button{
+    height: 100px;
+}
+.op button,.ne button{
+    border-radius: 30px;
+    height: 60px;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    background: linear-gradient(57deg,#00c6a7, #1e4d92);
+}
+.op button:hover,.ne button:hover{
+    background: linear-gradient(57deg, #1e4d92,#00c6a7);
+
+    .only-images img:hover{
+        transform: scale(1.03);
+        transition: 0.3s all ease;
+    }
+    ::placeholder{
+        margin-left: 2rem;
+        text-align: center;
+        
+    }
+    
+    .nichicon i{
+        margin-right: 1rem;
+        border: 2px solid white;
+        padding: 5px;
+        border-radius: 50%;
+        background: white;
+    }
+    
+    .nichicon i:hover{
+        transform: rotate(360deg);
+        transition: 0.5s all linear;
+        background: white;
+        color: blueviolet;
+    
+    }
+    
+    .upor-line{
+        background-color: transparent;
+        height: 80px;
+        width: 180px;
+       
+        position: relative;
+        }
+    
+        .upor-line .text{
+            background-color: transparent;
+            height: 72px;
+            width: 172px;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            top: 50%;
+            left: 50%;
+            text-align: center;
+            padding-top: 10%;
+            z-index: 2;
+        }
+    
+        .upor-line .hb{
+            background-color:transparent;
+            border-top: 5px solid rgb(24, 148, 250);
+            border-left: 5px solid rgb(24, 148, 250);
+            height: 36px;
+            width: 36px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+    
+        .text h3{
+            font-size: 20px;
+        }
+        .text p{
+            font-size: 14px;
+        }
+    
+        .upor-line .cb{
+            background-color:transparent;
+            border-bottom: 5px solid rgb(24, 148, 250);
+            border-right: 5px solid rgb(24, 148, 250);
+            height: 36px;
+            width: 36px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            z-index: 1;
+        }
+    
+        .email i{
+            color: rgb(145, 78, 207);
+        }
+    
+    
+        .baklol img:hover{
+            transform: scale(1.06);
+            transition: 0.3s all ease;
+        }
